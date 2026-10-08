@@ -1,13 +1,18 @@
 
 
 🏭 Sistema de Gestão de Fábrica de Roupas (SQL)
+
 Projeto desenvolvido para praticar e consolidar conceitos fundamentais de modelagem de banco de dados relacional, estruturação de tabelas, chaves estrangeiras, manipulação de dados (INSERT), correções de tipos (ALTER TABLE) e consultas avançadas utilizando JOIN, SUM, GROUP BY e ORDER BY.
 
 📋 Sobre o Projeto
+
 O objetivo deste banco de dados é simular o controlo de produção de uma fábrica de vestuário. O sistema gere o registo de funcionários, o catálogo de peças de roupa fabricadas e o histórico diário da produção industrial.
 
+
 🗄️ Estrutura do Banco de Dados (Schema)
+
 O banco de dados é composto por 3 tabelas principais:
+
 
 funcionarios: Armazena os dados da equipa e os respetivos setores.
 
@@ -40,6 +45,7 @@ quantidade (INT)
 data_producao (DATE)
 
 🚀 Principais Consultas (Queries SQL)
+
 Aqui estão alguns exemplos das consultas desenvolvidas no projeto:
 
 1. Relatório Completo de Produção (Cruzamento com JOIN)
@@ -59,7 +65,9 @@ FROM producao p
 JOIN funcionarios f ON p.id_funcionario = f.id_funcionario
 GROUP BY f.nome
 ORDER BY total_produzido DESC;
+
 🛠️ Tecnologias Utilizadas
+
 MySQL / Servidor Relacional
 
 PopSQL (Editor de consultas)
