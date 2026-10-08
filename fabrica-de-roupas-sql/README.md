@@ -1,4 +1,4 @@
-Aqui tens o texto completo do README.md pronto para copiares e colares no teu Bloco de Notas:
+
 
 🏭 Sistema de Gestão de Fábrica de Roupas (SQL)
 Projeto desenvolvido para praticar e consolidar conceitos fundamentais de modelagem de banco de dados relacional, estruturação de tabelas, chaves estrangeiras, manipulação de dados (INSERT), correções de tipos (ALTER TABLE) e consultas avançadas utilizando JOIN, SUM, GROUP BY e ORDER BY.
